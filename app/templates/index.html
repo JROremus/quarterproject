@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Yes</title>
-</head>
-<body>
-    <p>Yep</p>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+        <h1>Hello, {{user.username}}</h1>
+
+        {% for postin in posts %}
+        <div><h1>{{ postin.title.main }}</h1>  {{ postin.body }}</div>
+        {% endfor %}
+{% endblock %}
