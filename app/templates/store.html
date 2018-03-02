@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
 
-</body>
-</html>
+{% block content %}
+    {% for items in items %}
+    <div><h1>{{items.title}}</h1>  {{items.body}}</div>
+    {% endfor %}
+{% endblock %}
