@@ -23,18 +23,26 @@ def store():
 
     items = [
         {
-            'title': 'Python Book',
-            'body': '$200'
+            'announcement': 'Announcement! Special Value!',
+            'text': 'To celebrate the Chicago Tribune listing us as the best Athletic Club for the second year in a row, we are offering all members 20% off of our prices!',
         },
 
         {
-            'title': 'Cook Book',
-            'body': '$2'
+            'title': 'Base Plan',
+            'body': '$150',
+            'sub': 'Get access to all of our workout equipment between the hours of 7am and 7pm for a low fee. ',
         },
 
         {
-            'title': 'iPhone X',
-            'body': '$1000'
+            'title': 'Silver Plan',
+            'body': '$250',
+            'sub': 'Get all the great features of our Base Plan, with 24 hour access and discounts on classes ranging from Spin to Yoga!',
+        },
+
+        {
+            'title': 'Gold Plan',
+            'body': '$450',
+            'sub': 'Get all the access of our Silver Package with all of our classes included!',
         }
     ]
 
