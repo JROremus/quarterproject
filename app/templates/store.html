@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>{{items.announcement}}</h1>
-    <p>{{items.text}}</p>
     {% for items in items %}
     <div>
         <h1>{{items.announcement}}</h1>
