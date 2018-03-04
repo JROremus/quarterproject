@@ -24,19 +24,20 @@ def store():
     items = [
         {
             'title': 'Python Book',
-            'body': '200'
+            'body': '$200'
         },
 
         {
             'title': 'Cook Book',
-            'body': '2'
+            'body': '$2'
         },
 
         {
             'title': 'iPhone X',
-            'body': '1000'
+            'body': '$1000'
         }
     ]
+
 
     return render_template('store.html', items=items)
 

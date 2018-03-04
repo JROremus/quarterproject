@@ -31,5 +31,15 @@
            {% endwith %}
        </div>
         {% block content %}{% endblock %}
+        <footer>
+             <script type="text/javascript">
+   var date=new Date(),
+        year = date.getFullYear(),
+       text = "Copyright " + year + " - James Oremus",
+       html = '<div class="text-align-center">' + text + '</div>';
+
+   document.write(html);
+ </script>
+        </footer>
    </body>
 </html>
