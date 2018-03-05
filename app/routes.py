@@ -6,7 +6,7 @@ from app import db
 
 from flask_login import current_user, login_user, logout_user
 
-from app.models import Post, User
+from app.models import Post, User, Items
 
 @app.route('/')
 @app.route('/index')
