@@ -1,12 +1,10 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% for items in items %}
+    {% for item in items %}
     <div>
-        <h1>{{items.announcement}}</h1>
-        <p>{{items.text}}</p>
-        <h2>{{items.title}}</h2>
-        <p>{{items.body}}<hr> {{items.sub}}</p>
+        <h1>{{item.title}}</h1>
+        <p>{{item.price}}<hr>{{item.body}}</p>
     </div>
     {% endfor %}
 {% endblock %}
